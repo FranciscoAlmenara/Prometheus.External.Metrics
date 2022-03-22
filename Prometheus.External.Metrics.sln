@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prometheus.External.Metrics", "src\Prometheus.External.Metrics\Prometheus.External.Metrics.csproj", "{3EDA0A80-E9F9-474B-A8BE-EF824C953805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4FEAC4E4-A785-41C5-B505-6854F202AE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{B25C588A-585B-4CB3-9015-B8E801D66502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrometheusNetSampleApi", "sample\PrometheusNetSampleApi\PrometheusNetSampleApi.csproj", "{2E4EC040-AE56-46D2-B19F-A0A4DF06CDC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EDA0A80-E9F9-474B-A8BE-EF824C953805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDA0A80-E9F9-474B-A8BE-EF824C953805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDA0A80-E9F9-474B-A8BE-EF824C953805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDA0A80-E9F9-474B-A8BE-EF824C953805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4EC040-AE56-46D2-B19F-A0A4DF06CDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4EC040-AE56-46D2-B19F-A0A4DF06CDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4EC040-AE56-46D2-B19F-A0A4DF06CDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4EC040-AE56-46D2-B19F-A0A4DF06CDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EDA0A80-E9F9-474B-A8BE-EF824C953805} = {4FEAC4E4-A785-41C5-B505-6854F202AE1A}
+		{2E4EC040-AE56-46D2-B19F-A0A4DF06CDC8} = {B25C588A-585B-4CB3-9015-B8E801D66502}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A15818-99F9-465A-A8E2-DC3185A9D8E9}
+	EndGlobalSection
+EndGlobal
