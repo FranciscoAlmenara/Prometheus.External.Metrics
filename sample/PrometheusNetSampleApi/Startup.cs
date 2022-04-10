@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Prometheus;
 using Prometheus.External.Metrics;
+using Prometheus.HttpClientMetrics;
 using PrometheusNetSampleApi.Repository;
 using PrometheusNetSampleApi.Repository.Metrics;
 
